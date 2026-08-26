@@ -25,7 +25,7 @@ docs-sdk/
 
 | Feature | Description | Status |
 |---------|--------------|--------|
-| Keypair generation | Ed25519 keypair generation | 🔄 Current |
+| [Keypair generation](https://github.com/nemorixgroup/Solana-Knowledge-Base/blob/main/docs-sdk/phase1/keypair-generation/README.md) | Ed25519 keypair generation | ✅ Done |
 | Signing & verification | Message and transaction signing/verification | 🔄 Current |
 
 ## Phase 2 - Addresses & Encoding
