@@ -8,17 +8,17 @@
 
 ```
 docs-sdk/
-  README.md
-  phase-1/
-  phase-2/
-  phase-3/
-  phase-4/
-  phase-5/
-  phase-6/
-  phase-7/
-  phase-8/
-  phase-9/
-  phase-10/
+  README.md  <- You are here!
+  phase-1/   <- Cryptographic Fundamentals
+  phase-2/   <- Addresses & Encoding
+  phase-3/   <- RPC Connection Layer
+  phase-4/   <- Transaction Construction & Signing
+  phase-5/   <- System Program & Core Token Operations
+  phase-6/   <- Solana Pay: Transfer Request
+  phase-7/   <- Solana Pay: Transaction Request
+  phase-8/   <- Subscriptions & Allowances: Delegations
+  phase-9/   <- Subscriptions & Allowances: Plans
+  phase-10/  <- Error Handling, Test Suite & v1.0.0 Close-out
 ```
 
 ## Phase 1 - Cryptographic Fundamentals (Ed25519)
