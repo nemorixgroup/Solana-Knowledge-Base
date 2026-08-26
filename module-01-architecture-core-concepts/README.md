@@ -22,11 +22,13 @@ Official ownership rule: *"Only the account's owner program can modify its data 
 
 **Regular addresses**: a 32-byte Ed25519 public key with a matching private key. This is what `SolanaKeypair.generate()` (shipped in `0.0.2-dev`) produces.
 
-**Program Derived Addresses (PDA)**: a deterministic address with no associated private key. Derived from a `program_id` plus up to 16 seeds (each up to 32 bytes) via `find_program_address`, which appends a "bump seed" (tried from 255 down to 0) until it lands off the Ed25519 curve, guaranteeing no valid private key can exist for it. Only the program whose ID was used to derive a PDA can authorize actions on it, via `invoke_signed` in a CPI, without a cryptographic signature.
+**Program Derived Addresses (PDA)**: a deterministic address with no associated private key. Derived from a `program_id` plus up to 16 seeds (each up to 32 bytes) via `find_program_address`, which appends a "bump seed" (tried from 255 down to 1) until it lands off the Ed25519 curve, guaranteeing no valid private key can exist for it. Only the program whose ID was used to derive a PDA can authorize actions on it, via `invoke_signed` in a CPI, without a cryptographic signature.
 
 Compute cost: `create_program_address` costs 1,500 compute units; `find_program_address` costs that plus 1,500 per failed bump attempt. Maximum 16 PDA signers per CPI.
 
 PDAs are the mechanism behind Associated Token Accounts (Module 2 / Phase 2) and, especially, Subscriptions & Allowances (Phases 8 and 9): `SubscriptionAuthority`, fixed and recurring delegations, and subscription plans are all PDA accounts controlled by the Subscriptions program, not by the user.
+
+Source: [PDA Derivation](https://solana.com/docs/core/pda/pda-derivation)
 
 ## 3. Rent Exemption
 
