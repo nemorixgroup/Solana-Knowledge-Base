@@ -43,8 +43,8 @@ solana-knowledge-base/
 
 | # | Module | Topics covered |
 |---|--------|-----------------|
-| 01 | Architecture & Core Concepts - 🔄 Next | Account model, Program Derived Addresses (PDA), Cross-Program Invocation (CPI), rent-exemption, fees, compute budget |
-| 02 | Cryptography & Addresses - ⏳ Pending | Ed25519 keypairs, Base58 encoding, address derivation |
+| 01 | [Architecture & Core Concepts](https://github.com/nemorixgroup/Solana-Knowledge-Base/blob/main/module-01-architecture-core-concepts/README.md) | Account model, Program Derived Addresses (PDA), Cross-Program Invocation (CPI), rent-exemption, fees, compute budget |
+| 02 | Cryptography & Addresses - 🔄 Next | Ed25519 keypairs, Base58 encoding, address derivation |
 | 03 | Transactions & RPC - ⏳ Pending | Legacy and versioned (v0) transactions, Address Lookup Tables, JSON-RPC HTTP and WebSocket API |
 | 04 | Programs: System, Token & Token-2022 - ⏳ Pending | System Program, SPL Token Program, Token Extensions (Token-2022), Associated Token Account |
 | 05 | Solana Pay - ⏳ Pending | Transfer Request and Transaction Request specification (v1.1) |
