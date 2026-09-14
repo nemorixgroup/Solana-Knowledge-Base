@@ -45,11 +45,11 @@ solana-knowledge-base/
 |---|--------|-----------------|
 | 01 | [Architecture & Core Concepts](https://github.com/nemorixgroup/Solana-Knowledge-Base/blob/main/module-01-architecture-core-concepts/README.md) | Account model, Program Derived Addresses (PDA), Cross-Program Invocation (CPI), rent-exemption, fees, compute budget |
 | 02 | [Cryptography & Addresses](https://github.com/nemorixgroup/Solana-Knowledge-Base/blob/main/module-02-cryptography-addresses/README.md) | Ed25519 keypairs, Base58 encoding, address derivation |
-| 03 | Transactions & RPC - 🔄 Next | Legacy and versioned (v0) transactions, Address Lookup Tables, JSON-RPC HTTP and WebSocket API |
-| 04 | Programs: System, Token & Token-2022 - ⏳ Pending | System Program, SPL Token Program, Token Extensions (Token-2022), Associated Token Account |
-| 05 | Solana Pay - ⏳ Pending | Transfer Request and Transaction Request specification (v1.1) |
-| 06 | Subscriptions & Allowances - ⏳ Pending | Fixed/recurring delegations, subscription plans, native recurring-payment primitive |
-| 07 | Development Ecosystem - ⏳ Pending | Official SDKs, GitHub organizations, grants and funding |
+| 03 | [Transactions & RPC](https://github.com/nemorixgroup/Solana-Knowledge-Base/blob/main/module-03-transactions-rpc/README.md) | Legacy and versioned (v0) transactions, Address Lookup Tables, JSON-RPC HTTP and WebSocket API |
+| 04 | Programs: System, Token & Token-2022 | System Program, SPL Token Program, Token Extensions (Token-2022), Associated Token Account |
+| 05 | Solana Pay | Transfer Request and Transaction Request specification (v1.1) |
+| 06 | Subscriptions & Allowances | Fixed/recurring delegations, subscription plans, native recurring-payment primitive |
+| 07 | Development Ecosystem | Official SDKs, GitHub organizations, grants and funding |
 
 ## SDK Technical Decisions
 
@@ -134,5 +134,5 @@ This guide is maintained by [Nemorix Group](https://github.com/nemorixgroup) as 
 
 ---
 
-Last updated: August 2026  
+Last updated: **September 2026**  
 Maintained by [Nemorix Group](https://github.com/nemorixgroup)
