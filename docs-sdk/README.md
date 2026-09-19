@@ -24,9 +24,13 @@ docs-sdk/
 ## Phase 1 - Cryptographic Fundamentals (Ed25519)
 
 | Feature | Description | Status |
-|---------|--------------|--------|
+| --- | --- | --- |
 | [Keypair generation](https://github.com/nemorixgroup/Solana-Knowledge-Base/blob/main/docs-sdk/phase1/keypair-generation/README.md) | Ed25519 keypair generation | ✅ Done |
+| [Keypair import](https://github.com/nemorixgroup/Solana-Knowledge-Base/blob/main/docs-sdk/phase1/keypair-import/README.md) | Deterministic reconstruction from a seed (`fromSeed`) and Solana's 64-byte `secretKey` format | ✅ Done |
 | Signing & verification | Message and transaction signing/verification | 🔄 Current |
+| BIP39 mnemonic support | Mnemonic phrase generation and keypair recovery from it | ⏳ Pending |
+| SLIP-0010 derivation | Hierarchical deterministic derivation from a mnemonic, path `m/44'/501'/0'/0'` | ⏳ Pending |
+| Error handling | Consolidated exception types across keypair generation, import, signing, and derivation | ⏳ Pending |
 
 ## Phase 2 - Addresses & Encoding
 
